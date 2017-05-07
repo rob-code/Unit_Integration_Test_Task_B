@@ -1,4 +1,24 @@
-# JavaScript Calculator Testing
+# JavaScript Calculator Testing Submission
+
+Integration and unit tests are provided as per the brief.
+
+To trap division by zero, I made a small alteration to the divide method in calculator.js. From line 25, I added:
+
+if (!isFinite(this.runningTotal)){
+  this.runningTotal = "Not a number!"
+} 
+
+
+
+
+
+
+
+
+
+
+
+# BRIEF : JavaScript Calculator Testing
 
 As a user I want to be able to perform simple arithmetic functions in a web browser.
 

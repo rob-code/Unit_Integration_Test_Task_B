@@ -23,7 +23,6 @@ Calculator.prototype = {
     this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
 
     if (!isFinite(this.runningTotal)){
-      console.log(this.runningTotal)
       this.runningTotal = "Not a number!"
     } 
   },
